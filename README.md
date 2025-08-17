@@ -81,7 +81,6 @@ Production files will be in the `dist` folder.
 
 ## How to Play
 - Use arrow keys or WASD to move tiles.
-- You can also swipe on mobile or click buttons.
 - Merge tiles to reach 2048 and beyond.
 - Undo your last move using the Undo button or "U" key.
 - Start a new game anytime with the New Game button.
