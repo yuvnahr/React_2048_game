@@ -65,13 +65,13 @@ This is a React-based implementation of the classic 2048 game featuring smooth a
 
 1. **Clone the repository**
 git clone https://github.com/yuvnahr/React_2048_game.git
-  cd React_2048_game
+      cd React_2048_game
 
 2. **Install dependencies**
-  npm install
+      npm install
 
 3. **Start the development server**
-  npm run dev
+      npm run dev
 
 Visit `http://localhost:5173` in your browser.
 
