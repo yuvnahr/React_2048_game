@@ -1,6 +1,6 @@
 # React_2048_game
 
-This is a React-based implementation of the classic 2048 game featuring animations and intuitive controls. The game logic is fully handled on the frontend in JavaScript, eliminating backend dependencies. Styled with Tailwind CSS, it offers a responsive and modern UI. The clean architecture enables easy setup and future enhancements.
+This is a React-based implementation of the classic 2048 game. The game logic is fully handled on the frontend in JavaScript, eliminating backend dependencies. Styled with Tailwind CSS, it offers a responsive and pleasing UI.
 
 ---
 
@@ -9,7 +9,7 @@ This is a React-based implementation of the classic 2048 game featuring animatio
 - [Overview](#overview)
 - [How It Works](#how-it-works)
 - [Features](#features)
-- [Tech Stack](#tech-stack)
+- [Tech Stack](#tech-stack)(HR's can directly click here)
 - [Setup and Installation](#setup-and-installation)
 - [How to Play](#how-to-play)
 - [Project Structure](#project-structure)
@@ -21,33 +21,31 @@ This is a React-based implementation of the classic 2048 game featuring animatio
 
 ## Overview
 
-2048 is a sliding tile puzzle game where the player combines tiles to reach the 2048 tile. This clone recreates the gameplay in React and JavaScript, ensuring smooth performance and easy extensibility.
+2048 is a sliding tile puzzle game where the player combines tiles to reach the 2048 tile. This clone recreates the gameplay in React and JavaScript, ensuring performance and easy extensibility.
 
 ---
 
 ## How It Works
 
 - The board is a 4x4 grid.
-- On each move, tiles shift up, down, left, or right.
+- On each move, tiles shift in the direction input by the player.
 - Tiles with the same number merge into one with double the value.
-- After each move, a new tile (2 or 4) is added randomly.
-- The game ends when no more moves are possible.
+- After each move, a new tile (2 or 4) is added randomly on the empty space available. (if i were to make the rules of this game i'd add only 4s after reaching 1024)
+- The game ends when no more moves are possible, loser XD.
 - Score increases with every merge; best score is saved in your browser.
-- Supports keyboard controls, button clicks, and mobile swipe gestures.
-- Undo functionality lets you revert the last move once per turn.
+- Supports keyboard controls, button clicks.
+- You can even undo a move once every game, this feature was added so that gamers don't rage quit.
 
 ---
 
 ## Features
 
 - Fully client-side—no backend required.
-- Smooth Framer Motion animations.
 - Responsive Tailwind CSS UI.
 - Best score saved in localStorage.
-- Undo last move.
-- Keyboard & touch controls.
-- Overlays for win (2048) and game over.
-- Easy new game button.
+- Undo.
+- Overlays for win and game over.
+- New game button.
 
 ---
 
@@ -63,17 +61,17 @@ This is a React-based implementation of the classic 2048 game featuring animatio
 
 ## Setup and Installation
 
-1. **Clone the repository**
+1. **Clone the repo**
 git clone https://github.com/yuvnahr/React_2048_game.git
       cd React_2048_game
 
 2. **Install dependencies**
       npm install
 
-3. **Start the development server**
+3. **Start the dev server**
       npm run dev
 
-Visit `http://localhost:5173` in your browser.
+Visit `http://localhost:5173` in your browser (ctrl + left-click).
 
 Production files will be in the `dist` folder.
 
@@ -81,9 +79,7 @@ Production files will be in the `dist` folder.
 
 ## How to Play
 - Use arrow keys or WASD to move tiles.
-- Merge tiles to reach 2048 and beyond.
-- Undo your last move using the Undo button or "U" key.
-- Start a new game anytime with the New Game button.
+- The game is pretty self-explanatory.
 
 ---
 
@@ -104,9 +100,9 @@ Production files will be in the `dist` folder.
 ---
 
 ## Customization and Extensions
-- Change board size by editing `SIZE` in `game.js`.
+- Change board size by editing `SIZE` in `game.js`.(this will break almost half the frontend but yeah)
 - Edit tile colors and styles in `App.jsx` or modify Tailwind CSS config.
-- Add features like a leaderboard or AI agent easily; the architecture is modular and clean.
+- Add features like a leaderboard or [SPOILER ALERT] AI agent easily; the architecture is modular.
 
 ---
 
@@ -120,4 +116,4 @@ MIT License. See `LICENSE` for details.
 
 ---
 
-Enjoy playing and customizing your 2048 React game!
+Enjoy playing and customizing your 2048!
